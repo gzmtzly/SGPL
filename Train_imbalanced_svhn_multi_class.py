@@ -121,7 +121,7 @@ if __name__ == "__main__":
             data = Variable(torch.from_numpy(data).float()).cuda()
             label = Variable(torch.from_numpy(label).long()).cuda()
 
-            # 梯度清零
+            # 
             optimizer.zero_grad()
 
             output_label = model(data)
