@@ -76,11 +76,11 @@ if __name__ == "__main__":
                 maj_min_express = [0 if label[i] in maj_class else 1 for i in range(label.shape[0])]
                 maj_min_express = Variable(torch.from_numpy(np.array(maj_min_express)).long()).cuda()
                 maj_min_express_ = maj_min_express.view(-1, 1)
-                loss = Loss(output_label, label, maj_min_express_)
-            elif Loss_fun == 'Im_GPPE':
-                loss = Loss(output_label, label, K_ci)
+                loss = Loss(output_label, label, maj_min_express_)          
             elif Loss_fun == 'CFL':
                 loss = Loss(output_label, label, epoch)
+            elif Loss_fun == 'SGPL':
+                loss = Loss(output_label, label, K_ci)
             else:
                 loss = Loss(output_label, label)
 
