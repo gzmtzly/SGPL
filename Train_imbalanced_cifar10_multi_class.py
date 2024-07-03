@@ -12,7 +12,7 @@ import Loss_function
 batch_size = 100
 num_class = 10
 Epochs = 150
-maj_class = [0, 1, 2, 3]
+maj_class = [7, 8, 9]
 data_num = '200_1800_3400_5000'   # '100_5000'
 print('maj_class:', maj_class)
 
