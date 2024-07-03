@@ -16,7 +16,7 @@ maj_class = [7, 8, 9]
 data_num = '200_1800_3400_5000'   # '100_5000'
 print('maj_class:', maj_class)
 
-abs_path = './Linear_Imbalanced_cifar10/'
+abs_path = './Imbalanced_cifar10/'
 abs_path_train = abs_path + data_num
 
 train_data_path = abs_path_train + '/imbalanced_x.npy'
