@@ -17,7 +17,7 @@ maj_class = [0, 1, 2, 3, 4]
 data_num = '5000_100'
 # data_num = '100_1000_3000_5000'
 #
-abs_path = './Linear_Imbalanced_svhn/'
+abs_path = './Imbalanced_svhn/'
 abs_path_train = abs_path + data_num
 print('maj_class:', maj_class)
 
