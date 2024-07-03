@@ -13,8 +13,8 @@ batch_size = 100
 num_class = 10
 Epochs = 200
 
-maj_class = [3, 4, 5, 6]
-data_num = '100_5000'
+maj_class = [0, 1, 2, 3, 4]
+data_num = '5000_100'
 # data_num = '100_1000_3000_5000'
 #
 abs_path = './Linear_Imbalanced_svhn/'
