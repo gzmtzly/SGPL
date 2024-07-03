@@ -10,7 +10,7 @@ A novel loss function based on stepwise gradient penalty has been proposed to ad
    * Pytorch: 1.6.0   
 ## 2. Preparation
 ### 2.1. Data  
-We performed binary and multi-class imbalanced data classification experiments on SVHN, CIFAR10, and Clatcah101. Part of the data is included in the code
+We performed multi-class imbalanced data classification experiments on SVHN, CIFAR10, and Clatcah101. The data can be downloaded via the link https://pan.baidu.com/s/1mudC5-VD08J1DTNNwXjEdw (extract code: SGPL)
 ## 3. Training
 ### 3.1. File Description 
 The file functions are described as
@@ -23,6 +23,6 @@ Loss_Function.py | computing SGPL loss
 Model.py | training models on different dataset     
 utils.py | computing metrics
 ### 3.2. Launch the Training
-After downloading the code and corresponding data, execute "python Train_xxxx.py" to launch the training. It should be noted that the code contains part of the dataset on SVHN. So, “Train_imbalanced_svhn_multi_class.py” can be executed directly.
+After downloading the code and corresponding data, execute "python Train_xxxx.py" to launch the training.
 
 
