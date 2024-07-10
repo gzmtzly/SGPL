@@ -51,7 +51,7 @@ elif Loss_fun == 'ASL':
 elif Loss_fun == 'GPPE':
     Loss = Loss_function.GPPE_Multi_Class().cuda()
     save_confu_path = abs_path + data_num + '/result/result_GPPE/' + str(train_times) + '/'
-elif Loss_fun == 'Im_GPPE':
+elif Loss_fun == 'SGPL':
     Loss = Loss_function.SGPL().cuda()
     save_confu_path = abs_path + data_num + '/result/result_SGPL/' + str(train_times) + '/'
 
